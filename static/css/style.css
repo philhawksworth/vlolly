@@ -1,0 +1,153 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#211B18;
+	color:#eee;
+	text-align:center;
+	font:normal 18px/1.4em Georgia;
+	border-top:solid 8px #15110F;
+	padding:20px;
+}
+		
+#wrapper {
+	margin:0 auto;
+	width:600px;
+}
+
+#footer {
+	margin:40px 0 10px 0;
+	font-size:0.5em;
+	background-color:#1B1513;
+	padding:20px;
+	color:#999;
+}
+
+/*#footer a {
+	font-size:1em;
+}*/
+
+a:link, a:visited {
+	font-size:0.9em;
+	color:#AFE500;
+	text-decoration:none;
+	background-color:#000;
+	padding:2px 4px;
+}
+a:hover, a:focus {
+	color:#000;
+	background-color:#AFE500;
+}
+a:active {
+	color:#000;
+	background-color:#F06;
+}
+
+#footer a:link, #footer a:visited {
+	font-size:1em;
+	color:#fff;
+	background-color:#000;
+
+}
+#footer a:hover, #footer a:focus {
+	color:#000;
+	background-color:#AFE500;
+}
+#footer a:active {
+	color:#000;
+	background-color:#F06;
+}
+
+h1 {
+	margin:0 0 30px;
+}
+
+h1 a:link, h1 a:visited {
+	font-size:60px;
+	letter-spacing:-2px;
+	line-height:1em;
+	font-style:italic;
+	color:#F06;
+	background-color:transparent;
+	text-shadow:0 5px 5px #000000;
+}
+
+div#lolly {
+	width:400px;
+	height:300px;
+	overflow:hidden;
+	margin:0 auto;
+	background: transparent url(/images/lollies.gif) no-repeat top left;
+	text-indent:-999px;
+}
+
+div#lolly.lolly_3 {
+	background-position:0 0
+}
+div#lolly.lolly_4 {
+	background-position:-400px 0
+}
+div#lolly.lolly_5 {
+	background-position:-800px 0
+}
+div#lolly.lolly_melted {
+	background-position:-1200px 0
+}
+
+
+#controls {
+	font-size:0.8em;
+	text-align:right;
+	height:30px;
+}	
+
+.message {
+	width:600px;
+	color:#fff;
+}
+
+	.message a:link, .message a:visited {
+		background-color:transparent;
+		padding:2px;
+	}
+	.message a:hover, .message a:focus {
+			color:#000;
+			background-color:#AFE500;
+	}
+	.message a:active {
+		color:#000;
+		background-color:#F06;
+	}
+
+
+	.message textarea {
+		width:570px;
+		height:100px;		
+		color:#000;
+		border:solid 5px #D2C3B3;
+		font:normal 18px/1.4em Georgia;
+		padding:10px;
+	}
+
+
+#intro {
+	font-style:italic;
+	color:#B49388;
+	margin:0;
+	text-shadow:0 3px 1px #000000;
+}
+
+.busy {
+	font-style:italic;
+	color:#B49388;
+}
+
+label {
+	display:block;
+	font-size:0.8em;
+	text-align:left;
+	font-style:italic;
+	color:#B49388;
+}
