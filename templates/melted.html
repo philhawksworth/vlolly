@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block lolly %}
+<div id="lolly" class="lolly_melted"> a melted lolly :( </div>
+{% endblock %}
+
+{% block content %}
+<p class='message'>Hmmm. That's a bit embarrassing. We can't seem to find a lolly for you. Perhaps it melted.  If you had your heart set on a lolly you should just make one for yourself. Go on. Treat yourself! </p>
+<div id='controls'>
+	<a href='/make' id='make'>Make me a lolly to replace the one that seems to have gone missing.</a>
+</div>
+{% endblock %}

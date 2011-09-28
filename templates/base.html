@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>vlolly.com - Come and get your virtual lollipop</title>
+    <meta name="author" content="Phil Hawksworth">
+	<meta name="keywords" content="Virtual, Lollipop, lolly, gift, reward">
+	<meta name="description" content="Send someone a virtual lollipop to thank them for doing something nice. Virtual lollipops make people happy without rotting their teeth.">
+	<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon"> 
+    {% endblock %}
+  </head>
+<body>
+    <div id='wrapper'>
+        {% block intro %}{% endblock %}
+		<h1><a href="/" rel="self">Virtual Lollipop</a></h1>
+	    {% block lolly %}<div id="lolly" class="lolly_melted"> a melted lolly :( </div>{% endblock %}
+	    {% block content %}
+		<p class='message'>Hmmm. That's a bit embarrassing. We can't seem to find a lolly for you. Perhaps it melted.  If you had your heart set on a lolly you should just make one for yourself. Go on. Treat yourself! </p>
+		<div id='controls'>
+			<a href='/make' id='make'>Make me a lolly to replace the one that seems to have gone missing.</a>
+		</div>
+	    {% endblock %}
+		<div id='footer'>
+			This site was made by <a href='http://hawksworx.com' rel="me url">Phil Hawksworth</a> from valid <a href="http://validator.w3.org/check?uri=referer">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> with a bit of help from <a href="http://jquery.com">jQuery</a> <a href="http://flask.pocoo.org/">Flask</a> and <a href="http://www.sqlite.org/">SQLite</a>
+		</div>
+	</div>
+    <script src="/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="/js/lollycontrols.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		try {
+			var pageTracker = _gat._getTracker("UA-119040-10");
+			pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>

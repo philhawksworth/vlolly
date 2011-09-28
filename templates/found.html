@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block intro %}
+<p id='intro'>Aren't you lucky! Someone has sent you a</p>
+{% endblock %}
+
+{% block lolly %}
+<div id="lolly" class="{{ image }}"> A nice lolly for you. </div>
+{% endblock %}
+
+{% block content %}
+<p class='message'>{{ message }}</p>
+<div id='controls'>
+	<a href='/make' id='make'>Turn this into a lolly to send to a friend</a>
+</div>
+{% endblock %}

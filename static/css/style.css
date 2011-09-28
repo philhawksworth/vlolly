@@ -79,7 +79,7 @@ div#lolly {
 	height:300px;
 	overflow:hidden;
 	margin:0 auto;
-	background: transparent url(/images/lollies.gif) no-repeat top left;
+	background: transparent url(/static/images/lollies.gif) no-repeat top left;
 	text-indent:-999px;
 }
 
